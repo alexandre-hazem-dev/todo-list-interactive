@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo List Interactive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="container">
+
+        <h1>Todo List Interactive</h1>
+
+        <div class="formulaire">
+            <input id="inputTache" type="text" placeholder="Nouvelle tâche">
+            <button id="boutonAjouter">Ajouter</button>
+        </div>
+
+        <p id="message"></p>
+
+        <div class="legende">
+            <span class="carre-legende rouge"></span> Non réalisée
+            <span class="carre-legende orange"></span> En cours
+            <span class="carre-legende vert"></span> Terminée
+        </div>
+
+        <p id="statistiques"></p>
+
+        <div class="filtres">
+            <button id="filtreToutes">Toutes</button>
+            <button id="filtreNonRealisees">Non réalisées</button>
+            <button id="filtreEnCours">En cours</button>
+            <button id="filtreTerminees">Terminées</button>
+        </div>
+
+        <div id="listeTaches"></div>
+
+        <button id="boutonToutEffacer">Tout effacer</button>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
