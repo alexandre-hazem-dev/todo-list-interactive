@@ -101,7 +101,7 @@ function afficherTaches() {
                 return;
             }
 
-            taches[index].texte = nouveauTexte.trim();
+            taches[index].texte = "- " + nouveauTexte.trim();
 
             sauvegarderTaches();
 
