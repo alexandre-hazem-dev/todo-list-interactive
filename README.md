@@ -65,6 +65,12 @@ Pour lancer le projet, il suffit d'ouvrir le fichier `index.html` dans un naviga
 
 Il est aussi possible d'utiliser l'extension Live Server dans Visual Studio Code pour lancer le projet en local.
 
+## Démo en ligne
+
+Le projet est accessible en ligne via GitHub Pages :
+
+https://alexandre-hazem-dev.github.io/todo-list-interactive/
+
 ## État du projet
 
 Le projet est fonctionnel.
